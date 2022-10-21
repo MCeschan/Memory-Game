@@ -4,6 +4,27 @@
   max-width: 860px;
   margin: 40px auto;
 }
+
+.turn{
+  position: absolute;
+  top: 200px;
+  right: 60px;
+  color: #ebb667;
+}
+
+.instructions{
+  background-color: #fcac03;
+width: 300px;
+height:auto;
+position: absolute;
+top: 20px;
+right: 60px;
+padding: 2px;
+border: 2px solid #fff;
+border-radius: 6px;
+margin: 2px;
+}
+
 button {
   background: none;
   border: 2px solid #fff;
@@ -15,7 +36,7 @@ button {
   font-size: 1em;
 }
 button:hover {
-  background: #c23866;
+  background: #fcac03;
   color: #fff;
 }
 .card-grid {
