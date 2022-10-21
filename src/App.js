@@ -141,7 +141,7 @@ function App() {
       <h1>Memory Game</h1>
       <button onClick={shuffleCards}>New Game</button>
       <div className="instructions">
-        <p>You have only <br/>   12 turns <br/> to win.<br/>
+        <p>You only have <br/> 12 turns <br/> to win.<br/>
         Be careful!</p>
       </div>
       <div className="turn">
